@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'CrackerJack';
+    src: url('../fonts/CrackerJack-Regular.otf')
+}
+
+@font-face {
+    font-family: 'Abadi MT Condensed Light';
+    src: url('../fonts/Abadi MT Condensed Light.ttf');
+    
+}
+
+html, body {
+    height: 95%;
+    margin: 0;
+}
+
+#title {
+    font-family: CrackerJack;
+    font-size: 7em;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    width: 400px;
+    border-bottom: 1.75px dashed;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+}
+
+#subtitle {
+    font-family: CrackerJack;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+nav {
+    font-family: CrackerJack;
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 95px 0px 0px 170px;
+}
+
+
+nav a {
+	text-align:center;
+	font-size:1em;
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-left: 90px;
+    margin-right:90px; 
+}
+
+#last {
+    margin-right: 0px;
+}
+
+nav a:hover{
+    background-color: yellow;
+    height: 55px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+.text {
+    display: block;
+    margin-top: 100px;
+    width: 900px;
+    font-size: 20px;
+    font-family: Abadi MT Condensed Light;
+    color:black;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -450px;
+}
+
+.text_info {
+    display: block;
+    width: 900px;
+    font-size: 20px;
+    font-family: Abadi MT Condensed Light;
+    color:black;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -450px;
+}
+
+#para_img {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.line2 {
+    width: 1000px;
+    margin-top: 150px;
+    border-bottom: 1.75px dashed;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#brad {
+    width: 400px;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Abadi MT Condensed Light;
+    font-size: 20px;
+
+}
+
+
+#one {
+    margin: 40px 10px 0px 100px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+}
+
+#two {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+}
+
+#three {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;
+    background-size: 100%;
+}
+
+#four {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+}
+
+
+.shuffle-me, .image {
+    width: 250px;
+    height: 270px;
+}
+
+
+#first {
+    margin: 40px 10px 0px 110px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#second {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#third {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#fourth {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#fifth {
+    margin: 40px 10px 0px 110px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#sixth {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#seventh {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#eighth {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#ninth {
+    margin: 40px 10px 0px 110px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#tenth {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#eleventh {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#twelfth {
+    margin: 40px 10px;
+    width:267px;
+    height: 290px;
+    float: left;
+    padding: 10px;
+    display: block;  
+    background-size: 100%;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.line3 {
+    width: 1000px;
+    margin-top: 1250px;
+    border-bottom: 1.75px dashed;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#footer1 {
+    font-family: CrackerJack;
+    font-size: 2em;
+    display: block;
+    width: 95px;
+    margin: 45px 0px 0px 500px;
+    
+}
+
+#facebook {
+    display: block;
+    width: 50px;
+    margin: -80px 0px 40px 615px;
+}
+
+#insta {
+    display: block;
+    width: 50px;
+    margin: -95px 0px 40px 690px;
+}
+
+#twitter {
+    display: block;
+    width: 60px;
+    margin: -95px 0px 40px 765px;
+}
+
+#footer2 {
+    font-family: CrackerJack;
+    font-size: 2em;
+    display: block;
+    width: 80px;
+    margin: -85px 0px 0px 845px;
+    
+}
+
+.line4 {
+    width: 1000px;
+    margin-top: 150px;
+    border-bottom: 1.75px dashed;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#footer3 {
+    font-family: CrackerJack;
+    font-size: 2em;
+    display: block;
+    width: 95px;
+    margin: 45px 0px 0px 500px;
+    
+}
+
+#facebook2 {
+    display: block;
+    width: 50px;
+    margin: -80px 0px 40px 615px;
+}
+
+#insta2 {
+    display: block;
+    width: 50px;
+    margin: -95px 0px 40px 690px;
+}
+
+#twitter2 {
+    display: block;
+    width: 60px;
+    margin: -95px 0px 40px 765px;
+}
+
+#footer4 {
+    font-family: CrackerJack;
+    font-size: 2em;
+    display: block;
+    width: 80px;
+    margin: -85px 0px 0px 845px;
+}
